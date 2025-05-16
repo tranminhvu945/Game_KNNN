@@ -1,4 +1,4 @@
-# Chiến tranh chống Mỹ - Trò chơi Xe tăng
+# Chiến tranh chống Mỹ - Thống nhất đất nước
 
 Trò chơi chiến đấu xe tăng tái hiện các sự kiện lịch sử quan trọng trong cuộc chiến tranh Việt Nam (1955-1975). Người chơi điều khiển xe tăng Việt Nam qua các trận chiến lịch sử dẫn đến sự thống nhất đất nước.
 
@@ -6,7 +6,7 @@ Trò chơi chiến đấu xe tăng tái hiện các sự kiện lịch sử quan
 
 ## Động lực Phát triển
 
-"Chiến tranh chống Mỹ - Trò chơi Xe tăng" không chỉ là một sản phẩm giải trí, mà còn là tâm huyết của chúng mình mong muốn bắc một nhịp cầu độc đáo nối liền niềm vui chơi game với những trang sử vàng son của dân tộc. Chúng mình khát khao tạo nên một không gian nơi mỗi trận chiến xe tăng không chỉ mang lại sự kịch tính, mà còn là cơ hội để người chơi, đặc biệt là thế hệ trẻ, được "chạm" vào lịch sử, cảm nhận và ghi nhớ những sự kiện trọng đại một cách tự nhiên và đầy hứng khởi.
+"Chiến tranh chống Mỹ - Thống nhất đất nước" không chỉ là một sản phẩm giải trí, mà còn là tâm huyết của chúng mình mong muốn bắc một nhịp cầu độc đáo nối liền niềm vui chơi game với những trang sử vàng son của dân tộc. Chúng mình khát khao tạo nên một không gian nơi mỗi trận chiến xe tăng không chỉ mang lại sự kịch tính, mà còn là cơ hội để người chơi, đặc biệt là thế hệ trẻ, được "chạm" vào lịch sử, cảm nhận và ghi nhớ những sự kiện trọng đại một cách tự nhiên và đầy hứng khởi.
 
 Với triết lý "học mà chơi, chơi mà học", mục tiêu của chúng mình là:
 *   **Thắp lửa đam mê lịch sử:** Biến những bài học có phần khô khan thành trải nghiệm tương tác sống động, giúp người chơi dễ dàng tiếp cận và yêu thích tìm hiểu quá khứ.
