@@ -6,7 +6,14 @@ Trò chơi chiến đấu xe tăng tái hiện các sự kiện lịch sử quan
 
 ## Động lực Phát triển
 
-Trò chơi này được tạo ra với niềm đam mê và mong muốn mang đến một phương tiện giải trí độc đáo, nơi người chơi không chỉ được thư giãn với những trận đấu xe tăng kịch tính mà còn có cơ hội sống lại những trang sử hào hùng của dân tộc. Chúng mình tin rằng, việc lồng ghép kiến thức lịch sử vào một trò chơi tương tác sẽ giúp mọi người, đặc biệt là thế hệ trẻ, tiếp cận và ghi nhớ các sự kiện quan trọng một cách tự nhiên và hứng khởi hơn. Mục tiêu của chúng mình là tạo ra một trải nghiệm "học mà chơi, chơi mà học", khơi gợi niềm tự hào dân tộc và sự trân trọng đối với những hy sinh xương máu của cha ông để có được hòa bình, thống nhất ngày nay. Hãy cùng chúng mình khám phá lịch sử qua từng màn chơi và cảm nhận khí thế chiến đấu bất khuất của quân và dân ta!
+"Chiến tranh chống Mỹ - Trò chơi Xe tăng" không chỉ là một sản phẩm giải trí, mà còn là tâm huyết của chúng mình mong muốn bắc một nhịp cầu độc đáo nối liền niềm vui chơi game với những trang sử vàng son của dân tộc. Chúng mình khát khao tạo nên một không gian nơi mỗi trận chiến xe tăng không chỉ mang lại sự kịch tính, mà còn là cơ hội để người chơi, đặc biệt là thế hệ trẻ, được "chạm" vào lịch sử, cảm nhận và ghi nhớ những sự kiện trọng đại một cách tự nhiên và đầy hứng khởi.
+
+Với triết lý "học mà chơi, chơi mà học", mục tiêu của chúng mình là:
+*   **Thắp lửa đam mê lịch sử:** Biến những bài học có phần khô khan thành trải nghiệm tương tác sống động, giúp người chơi dễ dàng tiếp cận và yêu thích tìm hiểu quá khứ.
+*   **Nuôi dưỡng niềm tự hào dân tộc:** Khơi gợi lòng tự hào về truyền thống đấu tranh bất khuất và sự biết ơn sâu sắc đối với những hy sinh to lớn của cha ông cho nền hòa bình, thống nhất hôm nay.
+*   **Kết nối thế hệ:** Giúp các bạn trẻ hiểu thêm về những giai đoạn lịch sử quan trọng, từ đó thêm yêu quý và có ý thức gìn giữ những giá trị mà cha ông đã dày công vun đắp.
+
+Hãy cùng chúng mình lên cỗ xe tăng thời gian, khám phá từng chương lịch sử hào hùng và cảm nhận trọn vẹn khí thế quật cường của quân và dân ta trong cuộc đấu tranh vĩ đại!
 
 ## Tính năng
 
