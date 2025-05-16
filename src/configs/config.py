@@ -9,7 +9,13 @@ SCREEN_WIDTH = info.current_w
 SCREEN_HEIGHT = info.current_h
 
 pygame.display.set_caption("Chiến tranh chống Mỹ")
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+# screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SHOWN)
+
+pygame.display.flip()
+pygame.event.pump()
+pygame.display.update()
+
 clock = pygame.time.Clock()
 
 BACKGROUND = pygame.image.load(resource_path("assets/images/war_background.jpg"))
