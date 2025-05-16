@@ -4,6 +4,7 @@ from src.configs.config import FPS, clock
 from src.helpers.font_helper import get_font, FONT_LARGE, FONT_MEDIUM, FONT_SMALL
 from src.helpers.font_helper import get_font, FONT_MEDIUM
 from moviepy.video.io.VideoFileClip import VideoFileClip
+from src.helpers.resource_path import resource_path
 
 def show_game_image_main_menu(screen):
     # Colors
@@ -13,7 +14,7 @@ def show_game_image_main_menu(screen):
     
     # Load background image
     try:
-        background_image = pygame.image.load("assets/images/main_menu_img.png")
+        background_image = pygame.image.load(resource_path("assets/images/main_menu_img.png"))
         background_image = pygame.transform.scale(background_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
         print("Main menu background loaded successfully")
     except Exception as e:

@@ -1,5 +1,6 @@
 import pygame
-import os  # Added for path handling
+import os 
+from src.helpers.resource_path import resource_path
 
 pygame.init() 
 
@@ -7,11 +8,11 @@ info = pygame.display.Info()
 SCREEN_WIDTH = info.current_w
 SCREEN_HEIGHT = info.current_h
 
-pygame.display.set_caption("Game tông cửa 3 que")
+pygame.display.set_caption("Chiến tranh chống Mỹ")
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
 
-BACKGROUND = pygame.image.load("assets/images/war_background.jpg")
+BACKGROUND = pygame.image.load(resource_path("assets/images/war_background.jpg"))
 BACKGROUND = pygame.transform.scale(BACKGROUND, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Frames per second

@@ -1,6 +1,7 @@
 import pygame
 from src.configs.config import SCREEN_WIDTH, SCREEN_HEIGHT, FPS, clock
 from src.helpers.font_helper import get_font, FONT_LARGE, FONT_SMALL, FONT_MEDIUM
+from src.helpers.resource_path import resource_path
 
 
 def show_game_win_popup(screen):
@@ -13,7 +14,7 @@ def show_game_win_popup(screen):
 
     # Load background image
     try:
-        background_image = pygame.image.load("assets/images/final.png")
+        background_image = pygame.image.load(resource_path("assets/images/final.png"))
         background_image = pygame.transform.scale(background_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
         print("Loaded victory background image")
     except Exception as e:

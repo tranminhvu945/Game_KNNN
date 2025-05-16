@@ -2,11 +2,12 @@ import pygame
 from src.configs.config import SCREEN_WIDTH, SCREEN_HEIGHT, FPS, clock
 from moviepy.video.io.VideoFileClip import VideoFileClip
 from src.helpers.font_helper import get_font, FONT_MEDIUM, FONT_LARGE, FONT_SMALL
+from src.helpers.resource_path import resource_path
 
 def show_vid_next_level(screen, level):
 
     # Load and scale the background to fit the screen
-    background = pygame.image.load("assets/images/background.jpg")
+    background = pygame.image.load(resource_path("assets/images/background.jpg"))
     background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
     
     # Create semi-transparent overlay once (outside the loop)
@@ -14,12 +15,12 @@ def show_vid_next_level(screen, level):
     overlay.fill((0, 0, 0, 180))
 
     vid_to_display = [
-        "assets/videos/00.mp4",
-        "assets/videos/01.mp4",
-        "assets/videos/02.mp4",
-        "assets/videos/03.mp4",
-        "assets/videos/04.mp4",
-        "assets/videos/huc_cong.mp4",
+        resource_path("assets/videos/00.mp4"),
+        resource_path("assets/videos/01.mp4"),
+        resource_path("assets/videos/02.mp4"),
+        resource_path("assets/videos/03.mp4"),
+        resource_path("assets/videos/04.mp4"),
+        resource_path("assets/videos/huc_cong.mp4"),
     ]
     
     # Get the video path for the current level
@@ -140,11 +141,11 @@ def show_vid_next_level(screen, level):
 
 def show_game_next_level(screen, level):
     img_to_display = [
-        "assets/images/dien_bien_phu.png",
-        "assets/images/vi_tuyen_17.png",
-        "assets/images/mau_than_1968.png",
-        "assets/images/thanh_co_Quang_Tri.png",
-        "assets/images/30_4_1975.png",
+        resource_path("assets/images/dien_bien_phu.png"),
+        resource_path("assets/images/vi_tuyen_17.png"),
+        resource_path("assets/images/mau_than_1968.png"),
+        resource_path("assets/images/thanh_co_Quang_Tri.png"),
+        resource_path("assets/images/30_4_1975.png")
     ]
 
     if level >= len(img_to_display):

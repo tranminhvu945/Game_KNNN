@@ -3,6 +3,7 @@ import math
 from src.entities.bullet import Bullet
 from src.entities.base_entity import BaseEntity
 from src.configs.config import ENEMY_SPEED, ENEMY_SHOOT_RANGE, ENEMY_RELOAD_TIME
+from src.helpers.resource_path import resource_path
 
 class Enemy(BaseEntity):
     def __init__(self, x, y):
@@ -10,7 +11,7 @@ class Enemy(BaseEntity):
         super().__init__(
             x=x, 
             y=y, 
-            image_path='assets/images/tank.png',
+            image_path=resource_path('assets/images/tank.png'),
             size=(60, 80)
         )
         

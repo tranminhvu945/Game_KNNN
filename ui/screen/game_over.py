@@ -3,6 +3,7 @@ import os
 from src.configs.config import SCREEN_WIDTH, SCREEN_HEIGHT
 from src.configs.config import FPS, clock
 from src.helpers.font_helper import get_font, FONT_LARGE, FONT_SMALL
+from src.helpers.resource_path import resource_path
 
 def show_game_over_popup(screen):
     font_big = get_font(FONT_LARGE)
@@ -51,7 +52,7 @@ def show_game_over_popup(screen):
 
     # Load background
     try:
-        background_image = pygame.image.load("assets/images/hy_sinh.jpg")
+        background_image = pygame.image.load(resource_path("assets/images/hy_sinh.jpg"))
         background_image = pygame.transform.scale(background_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
     except Exception as e:
         print(f"Error loading background image: {e}")

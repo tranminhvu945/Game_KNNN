@@ -2,6 +2,7 @@ import pygame
 from src.entities.bullet import Bullet
 from src.entities.base_entity import BaseEntity
 from src.configs.config import SCREEN_WIDTH, SCREEN_HEIGHT, HERO_SPEED, HERO_MAX_HP, HERO_RELOAD_TIME
+from src.helpers.resource_path import resource_path
 
 class Hero(BaseEntity):
     def __init__(self, x, y):
@@ -9,7 +10,7 @@ class Hero(BaseEntity):
         super().__init__(
             x=x, 
             y=y, 
-            image_path='assets/images/vietnam_tank.png',
+            image_path=resource_path('assets/images/vietnam_tank.png'),
             size=(90, 120)
         )
         

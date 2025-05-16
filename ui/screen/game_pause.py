@@ -1,12 +1,13 @@
 import pygame
 from src.configs.config import SCREEN_WIDTH, SCREEN_HEIGHT, FPS, clock
 from src.helpers.font_helper import get_font, FONT_LARGE, FONT_SMALL, FONT_MEDIUM
+from src.helpers.resource_path import resource_path
 
 
 def show_game_pause_popup(screen):
     
     # Load and scale the background to fit the screen
-    background = pygame.image.load("assets/images/background.jpg")
+    background = pygame.image.load(resource_path("assets/images/background.jpg"))
     background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
     
     # Create semi-transparent overlay once (outside the loop)
@@ -15,7 +16,7 @@ def show_game_pause_popup(screen):
     
     # Load the image
     try:
-        pause_image = pygame.image.load("assets/images/hy_sinh.png")
+        pause_image = pygame.image.load(resource_path("assets/images/hy_sinh.png"))
         image_max_width = SCREEN_WIDTH // 2
         image_max_height = SCREEN_HEIGHT // 2
         

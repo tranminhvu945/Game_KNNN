@@ -1,11 +1,12 @@
 import pygame
 import os
+from src.helpers.resource_path import resource_path
 
 # Initialize font system
 pygame.font.init()
 
 # Font paths - adjust the filename to match your downloaded font
-FONT_PATH = "assets/fonts/NotoSans-VariableFont_wdth,wght.ttf"
+FONT_PATH = resource_path("assets/fonts/NotoSans-VariableFont_wdth,wght.ttf")
 # Font sizes
 FONT_LARGE = 70
 FONT_MEDIUM = 45
