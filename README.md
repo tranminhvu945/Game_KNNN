@@ -24,6 +24,14 @@ Hãy cùng chúng mình lên cỗ xe tăng thời gian, khám phá từng chươ
 - Giao diện tiếng Việt hoàn toàn
 - Chuỗi chiến thắng thể hiện quá trình thống nhất Việt Nam
 
+## Chơi ngay
+
+Nếu bạn không muốn cài đặt Python và các gói phụ thuộc, bạn có thể tải và chạy phiên bản thực thi (.exe) của trò chơi ngay lập tức:
+
+1. Tải xuống tệp thực thi từ [Google Drive](https://drive.google.com/file/d/17LG8DOJaZnOLEq7jvG-pVNqskykYN3lx/view?usp=sharing)
+2. Giải nén tệp tải xuống (nếu được nén)
+3. Chạy tệp .exe để bắt đầu trò chơi ngay lập tức
+
 ## Yêu cầu hệ thống
 
 - Python 3.6 trở lên
